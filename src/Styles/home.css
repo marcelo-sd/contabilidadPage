@@ -1,0 +1,44 @@
+@import "../variables.css";
+
+
+
+.container-home{
+  background: var(--color002);
+  height: 100vh;
+
+}
+.section-home-1{
+ 
+  
+  height: 370px;
+
+
+}
+.sec-img-home{
+  height: 370px;
+  
+
+}
+.marco-img-home{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 343px;
+    --bs-gutter-x: 0rem !important;
+
+  
+}
+.img-home {
+position: absolute;
+width: max-content;
+}
+
+
+
+
+
+
+
+
+
+

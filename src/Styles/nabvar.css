@@ -1,0 +1,132 @@
+@import "../variables.css";
+
+.container-navbar {
+  position: relative;
+  background: #88b4a8;
+  width: 100%;
+  height: 175px;
+}
+.contenedor-img-nabvar {
+  background: #20417a;
+  width: 100%;
+  height: 80%;
+}
+.figure-contedor-img {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+
+  margin: 0 0 0rem;
+}
+.img-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: min-content;
+  width: 100%;
+}
+.titulo-img-navbar {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  color: #88b4a8;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.contenedor-menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(39, 117, 157);
+  background: linear-gradient(
+    107deg,
+    rgba(39, 117, 157, 1) 5%,
+    rgba(228, 169, 220, 0.9067331522452731) 13%,
+    rgba(141, 188, 194, 1) 41%,
+    rgba(146, 188, 196, 0.8142961774553572) 53%,
+    rgba(227, 191, 227, 0.8899264295561975) 75%,
+    rgba(72, 142, 182, 1) 95%
+  );
+  /*   background-color: var(--color001); */
+
+  padding: 10px;
+  height: 20%;
+}
+
+.contenedor-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  list-style: none; /* Quitar los puntos */
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  margin: 0 10px; /* Espaciado entre los elementos del menú */
+}
+
+.menu a {
+  text-decoration: none;
+  color: #007bff; /* Color del texto */
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #007bff; /* Color del texto */
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: opacity 0.3s; /* Transición de opacidad */
+}
+
+.menu a:hover {
+  opacity: 0.7; /* Cambiar opacidad al pasar el ratón */
+}
+/*  ///////////////////////////////////////menu desplegable */
+.menu-desplegable {
+  display: none;
+  position: absolute;
+  background: #4518c3;
+}
+
+@media (max-width: 576px) {
+  .contenedor-img-nabvar {
+    height: 100%;
+  }
+
+  .titulo-img-navbar {
+    top: 5%;
+    left: 25%;
+    color: #88b4a8;
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+
+  .contenedor-menu {
+    display: none;
+  }
+
+  .menu-desplegable {
+    display: inline-block;
+    background: #1398a4;
+  }
+
+  .menu {
+    flex-direction: column; /* Cambiar a columna */
+    align-items: center; /* Centrar los elementos */
+  }
+  .menu li {
+    margin: 10px 0; /* Espacio entre los elementos */
+  }
+}
