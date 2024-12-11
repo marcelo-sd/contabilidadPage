@@ -16,7 +16,7 @@ function CardPresentacion() {
           manejo de Administradores, permitiendo registrar ventas, controlar
           stock de productos, registro de actividad del los venderes, y mas!
         </p>
-        <button className="btn-m" onClick={() => navigate("/caracteristicas")}> Explorar! </button>
+        <button className="btn-m" onClick={() => navigate("/contabilidadPage/caracteristicas")}> Explorar! </button>
       </div>
     </div>
   );
