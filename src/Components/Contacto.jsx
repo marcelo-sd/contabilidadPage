@@ -39,7 +39,7 @@ function Contacto() {
       </section>
 
       <section className="row d-flex justify-content-center mb-5">
-        <div className="card-client col-3">
+        <div className="card-client col-6 col-sm-6 col-md-5 col-lg-4 col-xl-3 col-xxl-3">
           <div className="user-picture">
             <figure>
                 <img src={pe01} alt="" />
@@ -62,7 +62,7 @@ function Contacto() {
               <FaLinkedin />
               <span className="tooltip-social">LinkedIn</span>
             </a>
-            <a href="https://msd-porfolio.surge.sh/portafolio">
+            <a href="https://marcelo-sd.github.io/MyPortafoliomds/">
               <GrUserManager />
               <span className="tooltip-social">Portafolio</span>
             </a>

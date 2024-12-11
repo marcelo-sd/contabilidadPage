@@ -9,7 +9,7 @@ function DropdownMenu() {
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
-    console.log(isOpen)
+    console.log(isOpen);
   };
 
   const closeMenu = () => {
@@ -17,25 +17,25 @@ function DropdownMenu() {
   };
 
   return (
-    <div className="dropdown-container d-lg-none">  {/* Mostrar solo en pantallas pequeñas */}
+    <div className="dropdown-container d-lg-none">
       <button className="dropdown-icon" onClick={toggleMenu}>
-        <IoMenuSharp size={24} />
+        <IoMenuSharp size={50} />
       </button>
       {isOpen && (
         <ul className="dropdown-menu">
           <li>
-            <Link to="/home" onClick={closeMenu}>
+            <Link to="/contabilidadPage/home" onClick={closeMenu}>
               Home
             </Link>
           </li>
           <li>
-            <Link to="/caracteristicas" onClick={closeMenu}>
+            <Link to="/contabilidadPage/caracteristicas" onClick={closeMenu}>
               Caracteristicas
             </Link>
           </li>
 
           <li>
-            <Link to="/contacto" onClick={closeMenu}>
+            <Link to="/contabilidadPage/contacto" onClick={closeMenu}>
               Contacto
             </Link>
           </li>

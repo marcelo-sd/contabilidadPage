@@ -9,7 +9,7 @@ function CardCaracteristicas08() {
       <div className="cardCategoria-info">
         <p className="title">Redis</p>
        
-        <p className="explorar" onClick={() => navigate("/redis")}> Explorar! </p>
+        <p className="explorar" onClick={() => navigate("/contabilidadPage/redis")}> Explorar! </p>
       </div>
     </div>
   );

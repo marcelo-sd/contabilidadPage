@@ -7,9 +7,9 @@ function CardCaracteristicas() {
   return (
     <div className="cardCategoria">
       <div className="cardCategoria-info">
-        <p className="title">Worker</p>
+        <p className="title">Microservicios</p>
        
-        <p className="explorar" onClick={() => navigate("/worker")}> Explorar! </p>
+        <p className="explorar" onClick={() => navigate("/contabilidadPage/worker")}> Explorar! </p>
       </div>
     </div>
   );

@@ -16,7 +16,7 @@ function SingIr() {
         <section className="row ">
           <button
             className=" btn btn-success"
-            onClick={() => navigate("/mensajeria")}
+            onClick={() => navigate("/contabilidadPage/mensajeria")}
           >
             {" "}
             Probar Comunicacion en tiempo real!

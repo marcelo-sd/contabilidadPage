@@ -9,7 +9,7 @@ function CardCaracteristicas() {
       <div className="cardCategoria-info">
         <p className="title">Lazy Loading</p>
        
-        <p className="explorar" onClick={() => navigate("/lazy")}> Explorar! </p>
+        <p className="explorar" onClick={() => navigate("/contabilidadPage/lazy")}> Explorar! </p>
       </div>
     </div>
   );

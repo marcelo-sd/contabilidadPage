@@ -9,7 +9,7 @@ function CardCaracteristicas09() {
       <div className="cardCategoria-info">
         <p className="title">Endpoints</p>
        
-        <p className="explorar" onClick={() => navigate("/token")}> Explorar! </p>
+        <p className="explorar" onClick={() => navigate("/contabilidadPage/token")}> Explorar! </p>
       </div>
     </div>
   );

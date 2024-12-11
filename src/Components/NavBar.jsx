@@ -10,7 +10,10 @@ function NavBar() {
         <figure className="figure-contedor-img">
           <img className="img-menu" src={a02} alt="" />
         </figure>
-        <h1 className="titulo-img-navbar">Cotabilidad Market Api</h1>
+      <div className=" text-center contenedor-de-titulo ">
+      <h1 className="titulo-img-navbar">Cotabilidad Market Api</h1>
+      </div>
+        
       </section>
       <section className="contenedor-menu">
         <nav className="contenedor-nav">
@@ -19,16 +22,16 @@ function NavBar() {
            
             <li>
              
-              <Link to="/home">Home</Link>
+              <Link to="/contabilidadPage/home">Home</Link>
             </li>
          
             <li>
              
-              <Link to="/caracteristicas">Características</Link>
+              <Link to="/contabilidadPage/caracteristicas">Características</Link>
             </li>
             <li>
              
-              <Link to="/contacto">Contacto</Link>
+              <Link to="/contabilidadPage/contacto">Contacto</Link>
             </li>
           </ul>
         </nav>

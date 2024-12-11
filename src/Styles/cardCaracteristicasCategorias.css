@@ -1,4 +1,4 @@
-/* From Uiverse.io by alexruix */ 
+
 .cardCategoria {
     --background: linear-gradient(to left, #f7ba2b 0%, #ea5358 100%);
     width: 190px;
@@ -63,3 +63,9 @@
     transition: color 1s;
    }
    
+   @media (max-width: 576px) {
+    .cardCategoria-info {
+        color: #f7ba2b;
+       
+       }
+}

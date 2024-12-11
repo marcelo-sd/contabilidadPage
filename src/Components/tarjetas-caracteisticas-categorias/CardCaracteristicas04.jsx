@@ -9,7 +9,7 @@ function CardCaracteristicas04() {
       <div className="cardCategoria-info">
         <p className="title">Diagramas</p>
        
-        <p className="explorar" onClick={() => navigate("/diagramas")}> Explorar! </p>
+        <p className="explorar" onClick={() => navigate("/contabilidadPage/diagramas")}> Explorar! </p>
       </div>
     </div>
   );

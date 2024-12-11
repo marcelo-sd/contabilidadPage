@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/home.css";
 import CardPre from "./Reutilizables/CardPresentacion";
-import ml from "../assets/ml.png";
+import mt from "../assets/mt.png";
 
 function Home() {
   return (
@@ -19,14 +19,14 @@ function Home() {
         <div
           className="sec-img-home 
              col-11 col-sm-11 col-md-9 col-lg-6 col-xl-6 col-xxl-6
-           d-flex  align-items-center
+           
            mb-3
         "
         >
           
         
               <figure className="marco-img-home  rounded me-3">
-                <img src={ml} alt="" className="img-home     " />
+                <img src={mt} alt="" className="img-home     " />
               </figure>
          
         </div>

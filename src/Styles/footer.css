@@ -1,0 +1,16 @@
+.con-footer{
+    background: #23347d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 7vh;
+    overflow: hidden;
+   
+}
+.cont-02{
+    height: auto;
+}
+.cont-02 p{
+    margin-top: none !important;
+}

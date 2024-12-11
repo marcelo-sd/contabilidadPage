@@ -26,10 +26,18 @@
   height: min-content;
   width: 100%;
 }
-.titulo-img-navbar {
+
+.contenedor-de-titulo {
   position: absolute;
-  top: 10%;
-  left: 20%;
+  top: 30%;
+
+  width: 100%;
+}
+
+.titulo-img-navbar {
+  /*   position: absolute;
+  top: 0%;
+  left: 0%; */
   color: #88b4a8;
   font-size: 3rem;
   font-weight: 600;
@@ -97,7 +105,7 @@
 .menu-desplegable {
   display: none;
   position: absolute;
-  background: #4518c3;
+  top: 130px;
 }
 
 @media (max-width: 576px) {
@@ -119,7 +127,6 @@
 
   .menu-desplegable {
     display: inline-block;
-    background: #1398a4;
   }
 
   .menu {

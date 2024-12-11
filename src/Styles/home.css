@@ -16,6 +16,8 @@
 }
 .sec-img-home{
   height: 370px;
+  display: flex;
+  align-items: center;
   
 
 }
@@ -31,12 +33,17 @@
 .img-home {
 position: absolute;
 width: max-content;
+transform: scale(0.6) translateX(-500px) translateY(-500px); 
 }
 
 
 
 
-
+@media (max-width: 576px) {
+  .sec-img-home {
+    display: none !important;
+  }
+ }
 
 
 
