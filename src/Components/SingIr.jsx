@@ -25,7 +25,7 @@ function SingIr() {
         <section className="row">
           <p>
             {" "}
-            uso SingIr para comunicarme en tiempo real con los clientes
+            Uso SingIr para comunicarme en tiempo real con los clientes
             conectados, de esta manera puedo enviar mensajes a mis usuarios
             conectados{" "}
           </p>
@@ -35,10 +35,10 @@ function SingIr() {
         </section>
         <section className="row">
           <p>
-            aqui mapeo mi hub(centro de comunicaciones) de esta manera
+            Aqui mapeo mi hub(centro de comunicaciones) de esta manera
             establesco una ruta especifica para que los clientes se conecten y
             tambien para que las solicitudes sean reconocidas y dirigidas
-            correctamente
+            correctamente.
           </p>
         </section>
         <section className="row">
@@ -46,8 +46,8 @@ function SingIr() {
         </section>
         <section className="row">
           <p>
-            Aprovechando mi worker, uso mi clase NotificacionSingIr para
-            notificar a los usuarios cuando su tarea se ha realizado. el metodo
+            Aprovechando mi Worker, uso mi clase NotificacionSingIr para
+            notificar a los usuarios cuando su tarea se ha realizado. El metodo
             NotificacionACliente envia un mensaje al usuario que solicito la
             tarea, uso el callback para asegurarme que la tarea se ha realizado.
           </p>

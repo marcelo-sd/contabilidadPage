@@ -14,7 +14,7 @@ function Caracteristicas() {
   return (
     <div className=" fondo2 ">
       <section className="row py-2 ">
-        <p className="col text-center h2 " style={{ "font-weight":"bold"}}>
+        <p className="col text-center h2 text-info-emphasis " style={{ "font-weight":"bold"}}>
          Principales caracteristicas de Contabilidad Market
         </p>
       </section>

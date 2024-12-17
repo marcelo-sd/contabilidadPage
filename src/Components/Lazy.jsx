@@ -11,7 +11,7 @@ function Lazy() {
       </section>
       <section className="row text-center">
         <p className="col">
-         { "  "}Uso a lazy loading para obtimizar el rendimiento, logro retrasar la carga de datos relacionados  y solo usarlo cundo los nesecite.
+         { "  "}Uso a lazy loading para obtimizar el rendimiento, logro retrasar la carga de datos relacionados  y solo usarlo cuando los nesecite.
         </p>
       </section>
       <section className="row text-center">

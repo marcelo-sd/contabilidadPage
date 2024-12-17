@@ -31,8 +31,8 @@ function Worker() {
         </section>
         <section className="row">
           <p>
-            aqui estoy implementando la interfaz uso channel que es una
-            coleccion especial para task
+            Aqui estoy implementando la interfaz, tambien uso channel que es una
+            coleccion especial para TASK.
           </p>
         </section>
         <section className="row">
@@ -40,7 +40,7 @@ function Worker() {
         </section>
         <section className="row">
           <p>
-            aqui estoy encolando la tarea, y simulo una tarea que requiere un
+            Aqui estoy encolando la tarea, y simulo una tarea que requiere un
             determinado tiempo.
           </p>
         </section>

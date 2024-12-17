@@ -6,7 +6,7 @@ function CardFunsion002() {
       <div className="card-body">
         <h5 className="card-title">Tabla Roles</h5>
         <p className="card-text">
-         tenemos una tabla Rol para determinar los roles, esto nos permite cargar los usuarios y vincularlos a los roles solo añadiendo un RolId que es un INT
+         Tenemos una tabla Rol para determinar los roles, esto nos permite cargar los usuarios y vincularlos a los roles solo añadiendo un RolId que es de tipo INT.
         </p>
        
       </div>

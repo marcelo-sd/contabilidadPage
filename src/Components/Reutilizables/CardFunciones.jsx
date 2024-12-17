@@ -8,7 +8,7 @@ function CardFunciones() {
         <p className="card-text">
           Una de las 3 tablas principales es la de usuario, esta diseñada para gestionar los roles, el campo mas importante es RolId,que nos permite asignar roles .
             Ademas, tambien permite registrar  todos las ventas que cada usuario realizó. Esta pensada para que los vendedores se logueen y registren sus operaciones.
-            Como toda tabla, tiene su crud corespondiente, pero solo el usuarioAdministrador puedo modificar, esto se logra a traves de politicas
+            Como toda tabla, tiene su crud corespondiente, pero solo el usuarioAdministrador puede modificar, esto se logra a traves de politicas
         </p>
       </div>
     </div>

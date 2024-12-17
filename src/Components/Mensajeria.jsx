@@ -10,9 +10,11 @@ const Mensajeria = () => {
   const [status, setStatus] = useState("Connecting...");
   const [apiResponse, setApiResponse] = useState("");
 
+  //.withUrl("https://localhost:7151/notificationHub")
+
   useEffect(() => {
     const newConnection = new signalR.HubConnectionBuilder()
-      .withUrl("https://localhost:7151/notificationHub")
+      .withUrl("http://contabilidadmarket.somee.com/notificationHub")
       .build();
 
     setConnection(newConnection);
@@ -39,7 +41,7 @@ const Mensajeria = () => {
 
   const sendMessage = () => {
     fetch(
-      `https://localhost:7151/api/Test/enqueue?connectionId=${connectionId}`,
+      `http://contabilidadmarket.somee.com/api/Test/enqueue?connectionId=${connectionId}`,
       {
         method: "POST",
         headers: {
@@ -99,7 +101,7 @@ const Mensajeria = () => {
 
       <section className="row">
         <button className="btn btn-success" onClick={sendMessage}>
-          Send Message
+         Enviar Mensaje
         </button>
       </section>
 

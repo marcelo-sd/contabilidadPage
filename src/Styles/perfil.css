@@ -47,7 +47,7 @@
   .user-picture figure img{
     width: 60%;
     position: absolute;
-    transform: scale(1.7) translateX(-14px) translateY(-6px);
+    transform: scale(1.7) translateX(-14px) translateY(4px);
    }
   
   

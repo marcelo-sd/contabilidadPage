@@ -23,8 +23,8 @@ function Seguridad() {
         <section className="row">
           <p>
             Para manejar los roles de manera que solo el administrador pueda
-            modificar ciertas tamblas de suma importancia, uso politicas usando
-            el RodId que todos los usuarios tinen
+            modificar ciertas tablas de suma importancia. Uso POLITICAS utilizando
+            el RodId que todos los usuarios poseen.
           </p>
         </section>
         <section className="row mb-3">
@@ -32,8 +32,8 @@ function Seguridad() {
         </section>
         <section className="row">
           <p>
-            Asi de esta manera por ejemplo solo un usuario administrador puede
-            modificar la tabla Usarios
+            Asi de esta manera, por ejemplo solo un usuario administrador puede
+            modificar la tabla Usarios.
           </p>
         </section>
         <section className="row pb-5">

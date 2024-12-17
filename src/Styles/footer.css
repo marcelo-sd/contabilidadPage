@@ -1,5 +1,5 @@
 .con-footer{
-    background: #23347d;
+    background: var(--bs-info-bg-subtle);
     display: flex;
     justify-content: center;
     align-items: center;

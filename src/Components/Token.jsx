@@ -14,8 +14,8 @@ function Token() {
     };
 
     try {
-      const response = await axios.post(
-        "http://contabilidadmatketapi.somee.com/auth/ObtenerToken",
+      const response = await axios.post("http://contabilidadmarket.somee.com/auth/ObtenerToken"
+      ,
         sendData
       );
       const Token = response.data.response; // Extracts the token
@@ -26,7 +26,7 @@ function Token() {
       localStorage.setItem("token", token);
       setIsLoading(false); // Oculta el icono de carga
     } catch (error) {
-      console.error("http://contabilidadmatketapi.somee.com/auth/ObtenerToken", error);
+      console.error("http://contabilidadmarket.somee.com/auth/ObtenerToken", error);
       // Handle errors (e.g., display a user-friendly message)
     }
   }
@@ -96,7 +96,7 @@ function Token() {
       <section className="row mb-3
       ">
       
-          <a href="http://contabilidadmatketapi.somee.com/swagger/index.html" className="btn btn-primary">
+          <a href="http://contabilidadmarket.somee.com/swagger/index.html" className="btn btn-primary">
           Probar Endpoints!
           </a>
        

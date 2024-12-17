@@ -1,8 +1,9 @@
 :root {
     --color001: linear-gradient(107deg, rgba(30,129,115,1) 4%, rgba(238,216,235,1) 13%, rgba(141,188,194,1) 41%, rgba(227,191,227,1) 75%, rgba(72,142,182,1) 95%);
 
-    --color002: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    --color003: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
 
+    --color002: #D6EDF2;
 
 
     --secondary-color: #6c757d;
